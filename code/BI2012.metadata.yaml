@@ -1,0 +1,160 @@
+_dataset:
+  class: BI2012
+  code: BrainInvaders2012
+  doi: https://doi.org/10.5281/zenodo.2649006
+  interval:
+  - 0
+  - 1
+  n_subjects: 25
+  paradigm: p300
+abstract: We describe the experimental procedures for a dataset that we have made publicly available at https://doi.org/10.5281/zenodo.2649006
+  in mat and csv formats. This dataset contains electroencephalographic (EEG) recordings of 25 subjects testing the Brain
+  Invaders (1), a visual P300 Brain-Computer Interface inspired by the famous vintage video game Space Invaders (Taito, Tokyo,
+  Japan). The visual P300 is an event-related potential elicited by a visual stimulation, peaking 240-600 ms after stimulus
+  onset. EEG data were recorded by 16 electrodes in an experiment that took place in the GIPSA-lab, Grenoble, France, in 2012
+  (2,3). Python code for manipulating the data is available at https://github.com/plcrodrigues/py.BI.EEG.2012-GIPSA. The ID
+  of this dataset is BI.EEG.2012-GIPSA.
+acquisition:
+  channel_types:
+    eeg: 16
+  electrode_material: Silver/Silver Chloride
+  electrode_type: wet
+  ground: FZ
+  hardware: NeXus-32 (MindMedia/TMSi)
+  line_freq: 50.0
+  montage: standard_1020
+  n_channels: 16
+  reference: hardware common average reference
+  sampling_rate: 128.0
+  sensor_type: EEG
+  sensors:
+  - F7
+  - F3
+  - F4
+  - F8
+  - T7
+  - C3
+  - Cz
+  - C4
+  - T8
+  - P7
+  - P3
+  - Pz
+  - P4
+  - P8
+  - O1
+  - O2
+  software: OpenVibe
+bci_application:
+  applications:
+  - gaming
+  environment: laboratory
+  online_feedback: true
+contributing_labs:
+- GIPSA-lab
+data_structure:
+  n_trials:
+    Target: 128
+    non-Target: 640
+  n_trials_per_class:
+    Target: 128
+    non-Target: 640
+  trials_context: per session (Training session); variable in Online session depending on user performance
+documentation:
+  acknowledgements: All subjects were volunteers recruited by means of flyers and of the mailing list of the University of
+    Grenoble-Alpes. All participants provided written informed consent confirming the notification of the experimental process,
+    the data management procedures and the right to withdraw from the experiment at any moment.
+  associated_paper_doi: 10.5281/zenodo.2649006
+  country: FR
+  data_url: https://doi.org/10.5281/zenodo.2649006
+  description: EEG recordings of 25 subjects testing the Brain Invaders, a visual P300 Brain-Computer Interface inspired by
+    the famous vintage video game Space Invaders
+  doi: 10.5281/zenodo.2649006
+  institution: GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP
+  institution_address: GIPSA-lab, 11 rue des Mathématiques, Grenoble Campus BP46, F-38402, France
+  investigators:
+  - G.F.P. Van Veen
+  - A. Barachant
+  - A. Andreev
+  - G. Cattan
+  - P. Rodrigues
+  - M. Congedo
+  keywords:
+  - Electroencephalography (EEG)
+  - P300
+  - Brain-Computer Interface
+  - Experiment
+  license: CC-BY-4.0
+  publication_year: 2019
+  repository: Zenodo
+  senior_author: M. Congedo
+experiment:
+  class_labels:
+  - Target
+  - NonTarget
+  events:
+    NonTarget: 1
+    Target: 2
+  feedback_type: visual (game interface)
+  has_training_test_split: true
+  instructions: limit eye blinks, head movements and face muscular contractions; silently count the number of Target flashes
+  mode: both
+  n_classes: 2
+  paradigm: p300
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_presentation:
+    flash_groups: 12 groups of 6 aliens (36 total aliens)
+    repetition_structure: 12 flashes per repetition (2 Target, 10 non-Target)
+    screen_distance: 75 to 115 cm
+    target_ratio: 1:5 (Target to non-Target)
+  stimulus_type: visual flashes of alien groups
+  study_design: longitudinal and transversal design with training-test mode of operation
+  synchronicity: synchronous
+  task_type: brain_invaders
+file_format: mat, csv
+methodology: 'The visual P300 is an event-related potential (ERP) elicited by a visual stimulation, peaking 240-600 ms after
+  stimulus onset. The experiment features a training-test mode of operation and both a longitudinal and transversal design.
+  Training session: Target alien chosen randomly at each repetition, 8 Targets total, 8 repetitions each, resulting in 128
+  Target trials and 640 non-Target flashes. Online session: consisted of three levels with different distractor configurations,
+  minimum 3.5 minutes per level, counter-balanced order across subjects. Interface: 36 aliens flashing in 12 groups of 6,
+  each repetition has 12 flashes (2 Target, 10 non-Target). P300 peak latency: 240-600 ms post-stimulus.'
+n_contributing_labs: 1
+paradigm_specific:
+  detected_paradigm: p300
+  n_repetitions: 8
+participants:
+  age_max: 31
+  age_mean: 24.4
+  age_min: 21
+  age_std: 2.76
+  bci_experience: half played games occasionally (around 4.5 hours a week)
+  health_status: healthy
+  n_subjects: 25
+  species: human
+preprocessing:
+  data_state: 'raw EEG with software tagging (note: tagging introduces jitter and latency)'
+  notes: Software tagging introduces a jitter and a latency which artificially modify the ERPs onset. Strong drift over time
+    resulting in higher jitter. Only possible to compare ERP acquired within the same experimental conditions when latency
+    is not corrected.
+runs_per_session: 2
+sessions:
+- '0'
+sessions_per_subject: 1
+signal_processing:
+  classifiers:
+  - xDAWN
+  - Riemannian
+  feature_extraction:
+  - Covariance/Riemannian
+  - xDAWN
+  spatial_filters:
+  - xDAWN
+tags:
+  modality:
+  - Visual
+  pathology:
+  - Healthy
+  type:
+  - Perception

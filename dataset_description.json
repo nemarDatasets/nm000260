@@ -1,0 +1,42 @@
+{
+	"Name": "BrainInvaders2012",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC-BY-4.0",
+	"Authors": [
+		"G.F.P. Van Veen",
+		"A. Barachant",
+		"A. Andreev",
+		"G. Cattan",
+		"P. Rodrigues",
+		"M. Congedo"
+	],
+	"Acknowledgements": "All subjects were volunteers recruited by means of flyers and of the mailing list of the University of Grenoble-Alpes. All participants provided written informed consent confirming the notification of the experimental process, the data management procedures and the right to withdraw from the experiment at any moment.",
+	"ReferencesAndLinks": [
+		"https://doi.org/10.5281/zenodo.2649006",
+		"10.5281/zenodo.2649006"
+	],
+	"DatasetDOI": "doi:10.5281/zenodo.2649006",
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.5.0"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "https://doi.org/10.5281/zenodo.2649006",
+			"URL": "https://doi.org/10.5281/zenodo.2649006"
+		}
+	],
+	"Keywords": [
+		"Electroencephalography (EEG)",
+		"P300",
+		"Brain-Computer Interface",
+		"Experiment"
+	],
+	"PublicationYear": 2019
+}
