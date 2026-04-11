@@ -1,5 +1,5 @@
 {
-  "Name": "Van Veen & Barachant 2012 — Brain Invaders P300 BCI game (BI2012)",
+  "Name": "Van Veen, Barachant & Andreev 2012 — Building Brain Invaders: EEG data of an experimental validation (BI2012)",
   "BIDSVersion": "1.9.0",
   "HEDVersion": "8.4.0",
   "DatasetType": "derivative",
