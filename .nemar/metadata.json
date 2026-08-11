@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Van Veen, Barachant & Andreev 2012 — Building Brain Invaders: EEG data of an experimental validation (BI2012)",
+  "description": "This dataset comprises electroencephalographic recordings from 25 healthy subjects performing a visual P300 brain-computer interface task based on the Brain Invaders paradigm. Participants viewed flashing alien groups and silently counted target stimuli while 16-channel EEG was recorded at 128 Hz. The dataset includes both training and online sessions with 768 total trials per subject, providing a benchmark resource for P300-based BCI research and algorithm validation.",
+  "methods_description": "EEG data were acquired using a NeXus-32 system (MindMedia/TMSi) with 16 electrodes positioned according to the standard 10-20 montage (F7, F3, F4, F8, T7, C3, Cz, C4, T8, P7, P3, Pz, P4, P8, O1, O2). Sampling rate was 128 Hz with a hardware common average reference and ground at FZ. Wet silver/silver chloride electrodes were used. The experiment employed a visual P300 paradigm with 36 aliens flashing in 12 groups, presenting 12 flashes per repetition (2 target, 10 non-target). Participants completed a training session with 8 repetitions and an online session with three difficulty levels.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "G.F.P. Van Veen": {},
     "A. Barachant": {},
@@ -9,6 +14,31 @@
     "P. Rodrigues": {},
     "M. Congedo": {}
   },
+  "keywords": [
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "Brain-Computer Interface"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "Visual Stimulation"
+    },
+    {
+      "term": "Motor Imagery"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.2649006",
@@ -21,11 +51,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000260",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "IsReferencedBy"
@@ -34,55 +59,29 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000260",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "Van Veen, Barachant & Andreev 2012 — Building Brain Invaders: EEG data of an experimental validation (BI2012)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "171.2 MB (47 files)"
+    "325.5 MB (72 files)"
   ],
   "formats": [
     ".bdf",
     ".json",
+    ".mat",
     ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "description": "This dataset comprises electroencephalographic recordings from 25 healthy subjects performing a visual P300 brain-computer interface task based on the Brain Invaders paradigm. Participants viewed flashing alien groups and silently counted target stimuli while 16-channel EEG was recorded at 128 Hz. The dataset includes both training and online sessions with performance feedback, providing a benchmark resource for P300-based BCI research and algorithm validation.",
-  "methods_description": "EEG data were acquired using a NeXus-32 system (MindMedia/TMSi) with 16 electrodes positioned according to the standard 10-20 montage (F7, F3, F4, F8, T7, C3, Cz, C4, T8, P7, P3, Pz, P4, P8, O1, O2). Sampling rate was 128 Hz with a hardware common average reference and ground at FZ. Wet silver/silver chloride electrodes were used. The experiment employed a visual P300 paradigm with 12 flashes per repetition (2 target, 10 non-target) presented as flashing alien groups. Participants completed a training session (8 repetitions, 128 target and 640 non-target trials) and an online session with three difficulty levels.",
-  "keywords": [
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "P300 event-related potential"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "visual evoked potentials"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "EEG classification"
-    },
-    {
-      "term": "Riemannian geometry"
-    }
-  ],
-  "source_hash": "30372675f4d0417cffc828f3ce1e8642479a4ec2ef7ed41674b5a4ccbf73b5ba"
+  "source_hash": "0b74f5eb83ddd3be9875d99b002c3930cc4ae17c2518c4a3a38eb756091894bc"
 }
