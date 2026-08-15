@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Van Veen, Barachant & Andreev 2012 — Building Brain Invaders: EEG data of an experimental validation (BI2012)",
-  "description": "This dataset comprises electroencephalographic recordings from 25 healthy subjects performing a visual P300 brain-computer interface task based on the Brain Invaders paradigm. Participants viewed flashing alien groups and silently counted target stimuli while 16-channel EEG was recorded at 128 Hz. The dataset includes both training and online sessions with 768 total trials per subject, providing a benchmark resource for P300-based BCI research and algorithm validation.",
-  "methods_description": "EEG data were acquired using a NeXus-32 system (MindMedia/TMSi) with 16 electrodes positioned according to the standard 10-20 montage (F7, F3, F4, F8, T7, C3, Cz, C4, T8, P7, P3, Pz, P4, P8, O1, O2). Sampling rate was 128 Hz with a hardware common average reference and ground at FZ. Wet silver/silver chloride electrodes were used. The experiment employed a visual P300 paradigm with 36 aliens flashing in 12 groups, presenting 12 flashes per repetition (2 target, 10 non-target). Participants completed a training session with 8 repetitions and an online session with three difficulty levels.",
+  "description": "This dataset comprises electroencephalographic recordings from 25 healthy subjects performing a visual P300 brain-computer interface task inspired by the Space Invaders video game. Participants were presented with flashing alien groups and instructed to silently count target stimuli while EEG was recorded from 16 electrodes at 128 Hz. The dataset includes both training and online sessions with performance feedback, providing a benchmark resource for P300-based BCI research and algorithm validation.",
+  "methods_description": "EEG data were acquired using a NeXus-32 system (MindMedia/TMSi) with 16 electrodes positioned according to the standard 10-20 montage (F7, F3, F4, F8, T7, C3, Cz, C4, T8, P7, P3, Pz, P4, P8, O1, O2). Sampling rate was 128 Hz with a hardware common average reference and ground at FZ. Wet silver/silver chloride electrodes were used. The paradigm featured visual stimulus presentation of alien groups flashing in 12 groups of 6, with 12 flashes per repetition (2 target, 10 non-target). Participants completed a training session with 8 repetitions and an online session with three difficulty levels.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -36,7 +36,7 @@
       "term": "Visual Stimulation"
     },
     {
-      "term": "Motor Imagery"
+      "term": "motor imagery"
     }
   ],
   "related_identifiers": [
@@ -83,5 +83,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "0b74f5eb83ddd3be9875d99b002c3930cc4ae17c2518c4a3a38eb756091894bc"
+  "source_hash": "768eaa5ba33565788cc4df3ed065dd2acf6050fd9467858beb8356c71da0157a"
 }
