@@ -14,127 +14,153 @@
   {
    "file": "subject_01/training.mat",
    "bytes": 6245188,
-   "sha256": "d19c2b17d90da4e3cec791a0de5cf20a0552dcbe07b4dd7952e91589d2b2fd97"
+   "sha256": "d19c2b17d90da4e3cec791a0de5cf20a0552dcbe07b4dd7952e91589d2b2fd97",
+   "subject": "1"
   },
   {
    "file": "subject_02/training.mat",
    "bytes": 6119129,
-   "sha256": "68d36eb1d9b12324bfe87ffd0a840a6977a21d6d7aaadfb190d2279e282699da"
+   "sha256": "68d36eb1d9b12324bfe87ffd0a840a6977a21d6d7aaadfb190d2279e282699da",
+   "subject": "2"
   },
   {
    "file": "subject_03/training.mat",
    "bytes": 6127541,
-   "sha256": "4276cafd00d30e22cd334c8cb83f148a16460d2ef407a251652ce609d81b7c43"
+   "sha256": "4276cafd00d30e22cd334c8cb83f148a16460d2ef407a251652ce609d81b7c43",
+   "subject": "3"
   },
   {
    "file": "subject_04/training.mat",
    "bytes": 6282392,
-   "sha256": "d43c8133745d3359785b035258344fd44bb42be68fe1fad7d2c02a5caeeb7f31"
+   "sha256": "d43c8133745d3359785b035258344fd44bb42be68fe1fad7d2c02a5caeeb7f31",
+   "subject": "4"
   },
   {
    "file": "subject_05/training.mat",
    "bytes": 6542209,
-   "sha256": "b50a6d93dd566c85957765f079217a96af7bcf9685300768fb12c5aa9ee95e3b"
+   "sha256": "b50a6d93dd566c85957765f079217a96af7bcf9685300768fb12c5aa9ee95e3b",
+   "subject": "5"
   },
   {
    "file": "subject_06/training.mat",
    "bytes": 6192471,
-   "sha256": "5b5837c6e07173d517c9383dd69032f90ea02fecaa67417ce0b6b96668300f47"
+   "sha256": "5b5837c6e07173d517c9383dd69032f90ea02fecaa67417ce0b6b96668300f47",
+   "subject": "6"
   },
   {
    "file": "subject_07/training.mat",
    "bytes": 6184752,
-   "sha256": "511bc1395dac8cbad32783ed220ad2824bf4420025dcef2c1dcd5dd6931d290f"
+   "sha256": "511bc1395dac8cbad32783ed220ad2824bf4420025dcef2c1dcd5dd6931d290f",
+   "subject": "7"
   },
   {
    "file": "subject_08/training.mat",
    "bytes": 6192471,
-   "sha256": "20afc3d8b8ca301a058f08bfadfd1f159d4c5e204dabc432e493445a3e9f8bf4"
+   "sha256": "20afc3d8b8ca301a058f08bfadfd1f159d4c5e204dabc432e493445a3e9f8bf4",
+   "subject": "8"
   },
   {
    "file": "subject_09/training.mat",
    "bytes": 6174955,
-   "sha256": "a0a22fa81bee1dbd259db46cbe08a1b776ace756cc92609a105d62a128b5bf5b"
+   "sha256": "a0a22fa81bee1dbd259db46cbe08a1b776ace756cc92609a105d62a128b5bf5b",
+   "subject": "9"
   },
   {
    "file": "subject_10/training.mat",
    "bytes": 5989670,
-   "sha256": "43ec7d103b1cb5069fa8e8ca6f85d405fb9dafa0e8a1e99dbe5bd4e7775041dd"
+   "sha256": "43ec7d103b1cb5069fa8e8ca6f85d405fb9dafa0e8a1e99dbe5bd4e7775041dd",
+   "subject": "10"
   },
   {
    "file": "subject_11/training.mat",
    "bytes": 5840314,
-   "sha256": "adad14db21d07edf7c20426208e4434dbb00396145efd908f0e2d3f41cf151c4"
+   "sha256": "adad14db21d07edf7c20426208e4434dbb00396145efd908f0e2d3f41cf151c4",
+   "subject": "11"
   },
   {
    "file": "subject_12/training.mat",
    "bytes": 6384416,
-   "sha256": "58ae80678b9e1b0027bf6cab3b8bb17ea73b28acaffffabb165821c4aed0c725"
+   "sha256": "58ae80678b9e1b0027bf6cab3b8bb17ea73b28acaffffabb165821c4aed0c725",
+   "subject": "12"
   },
   {
    "file": "subject_13/training.mat",
    "bytes": 6196368,
-   "sha256": "178f6778e00e810b98494eff8ecf8cb4fff4c351f65cb31117b1f0401f7e6203"
+   "sha256": "178f6778e00e810b98494eff8ecf8cb4fff4c351f65cb31117b1f0401f7e6203",
+   "subject": "13"
   },
   {
    "file": "subject_14/training.mat",
    "bytes": 6085198,
-   "sha256": "686158ea1e3653beb4b9e5b0f9d85d249aaaaa02852fa4938def9033e4bdc16a"
+   "sha256": "686158ea1e3653beb4b9e5b0f9d85d249aaaaa02852fa4938def9033e4bdc16a",
+   "subject": "14"
   },
   {
    "file": "subject_15/training.mat",
    "bytes": 6102175,
-   "sha256": "061888ef1abdb87c903f2e0338cc40d651e9d203ab924f93fa99e1bfdf1363d9"
+   "sha256": "061888ef1abdb87c903f2e0338cc40d651e9d203ab924f93fa99e1bfdf1363d9",
+   "subject": "15"
   },
   {
    "file": "subject_16/training.mat",
    "bytes": 6169483,
-   "sha256": "658f71f060fa91eaa684dd69e5b2f90551ebc105eeab2ebd8233dba9b8d93e6e"
+   "sha256": "658f71f060fa91eaa684dd69e5b2f90551ebc105eeab2ebd8233dba9b8d93e6e",
+   "subject": "16"
   },
   {
    "file": "subject_17/training.mat",
    "bytes": 6220552,
-   "sha256": "6690e7f6eca77b10d1a99f0f133b8c94affc429ecd8464a6324f159e419e6f82"
+   "sha256": "6690e7f6eca77b10d1a99f0f133b8c94affc429ecd8464a6324f159e419e6f82",
+   "subject": "17"
   },
   {
    "file": "subject_18/training.mat",
    "bytes": 6014821,
-   "sha256": "9d479a0101c6bbc952d402bef4776edebf3b0acdad266d8dc3e657eae7ec9275"
+   "sha256": "9d479a0101c6bbc952d402bef4776edebf3b0acdad266d8dc3e657eae7ec9275",
+   "subject": "18"
   },
   {
    "file": "subject_19/training.mat",
    "bytes": 6350956,
-   "sha256": "a531d473ce408262ba9264f8c3cf438c520ca7e7e8c801eca11fc7c723f5a941"
+   "sha256": "a531d473ce408262ba9264f8c3cf438c520ca7e7e8c801eca11fc7c723f5a941",
+   "subject": "19"
   },
   {
    "file": "subject_20/training.mat",
    "bytes": 6195939,
-   "sha256": "3b449650c76717c291b370b1a145846ff2f9e2e8b68971e35ce112a750c0eaba"
+   "sha256": "3b449650c76717c291b370b1a145846ff2f9e2e8b68971e35ce112a750c0eaba",
+   "subject": "20"
   },
   {
    "file": "subject_21/training.mat",
    "bytes": 6352093,
-   "sha256": "059cf2585bc40a9bbc3a84d4735a4f0ec2fe74ac6ac05df2448694b9eee06c3b"
+   "sha256": "059cf2585bc40a9bbc3a84d4735a4f0ec2fe74ac6ac05df2448694b9eee06c3b",
+   "subject": "21"
   },
   {
    "file": "subject_22/training.mat",
    "bytes": 6229072,
-   "sha256": "967612161e6cbfac87acc14738c972ad7dcb3ebf1fa40cab9e0fbffafe1f9cb1"
+   "sha256": "967612161e6cbfac87acc14738c972ad7dcb3ebf1fa40cab9e0fbffafe1f9cb1",
+   "subject": "22"
   },
   {
    "file": "subject_23/training.mat",
    "bytes": 6115758,
-   "sha256": "21828bc26056c94991b5c4f934fecfad9ada7326f67ff8ad326755cdf16a4400"
+   "sha256": "21828bc26056c94991b5c4f934fecfad9ada7326f67ff8ad326755cdf16a4400",
+   "subject": "23"
   },
   {
    "file": "subject_24/training.mat",
    "bytes": 6162068,
-   "sha256": "b16987403b80739d8da8ea8d0c9103a11b5d02bdd6b81a253546b547835a39dc"
+   "sha256": "b16987403b80739d8da8ea8d0c9103a11b5d02bdd6b81a253546b547835a39dc",
+   "subject": "24"
   },
   {
    "file": "subject_25/training.mat",
    "bytes": 5909286,
-   "sha256": "2d2a28663ae3557b80590d12b52f561711ca53040b0df8e37292098ce9ae131e"
+   "sha256": "2d2a28663ae3557b80590d12b52f561711ca53040b0df8e37292098ce9ae131e",
+   "subject": "25"
   }
- ]
+ ],
+ "n_subjects_recorded": 25
 }
