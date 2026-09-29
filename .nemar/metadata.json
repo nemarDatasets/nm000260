@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Van Veen, Barachant & Andreev 2012 — Building Brain Invaders: EEG data of an experimental validation (BI2012)",
-  "description": "This dataset comprises electroencephalographic recordings from 25 healthy subjects performing a visual P300 brain-computer interface task based on the Brain Invaders paradigm. Participants viewed flashing alien groups and silently counted target stimuli while 16-channel EEG was recorded at 128 Hz. The dataset includes both training and online sessions with performance feedback, providing a benchmark resource for P300-based BCI research and algorithm validation.",
-  "methods_description": "EEG data were acquired using a NeXus-32 system (MindMedia/TMSi) with 16 electrodes positioned according to the standard 10-20 montage (F7, F3, F4, F8, T7, C3, Cz, C4, T8, P7, P3, Pz, P4, P8, O1, O2) at a sampling rate of 128 Hz. Wet silver/silver chloride electrodes were used with hardware common average reference and FZ as ground. The experiment employed a visual P300 paradigm with repetitive flashing of alien groups (12 groups of 6 aliens) presented on screen at 75-115 cm distance. Participants completed a training session (8 repetitions, 128 target and 640 non-target trials) and an online session with three difficulty levels. Visual feedback was provided through the game interface.",
+  "description": "This dataset contains 16-channel EEG recordings from 25 healthy volunteers playing Brain Invaders, a visual P300 brain-computer interface inspired by the video game Space Invaders. Data were collected at GIPSA-lab, Grenoble, in 2012 using a training-test design, with Target and NonTarget flashes of alien groups as events. It supports P300 BCI research, including classification with xDAWN and Riemannian methods.",
+  "methods_description": "EEG was recorded with a NeXus-32 amplifier (MindMedia/TMSi) from 16 wet Ag/AgCl electrodes at 128 Hz, using OpenVibe. The interface had 36 aliens flashing in 12 groups of 6, with 12 flashes per repetition (2 Target, 10 non-Target). The training session comprised 8 Targets with 8 repetitions each. The online session had three levels with different distractor configurations, in counter-balanced order.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -21,24 +21,21 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "P300 event-related potential"
-    },
-    {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "visual evoked potentials"
+      "term": "P300"
     },
     {
-      "term": "motor imagery"
+      "term": "event-related potentials"
     },
     {
-      "term": "signal processing"
+      "term": "Brain Invaders"
     },
     {
-      "term": "neurofeedback"
+      "term": "visual stimulation"
     }
   ],
   "related_identifiers": [
@@ -74,7 +71,7 @@
     "eeg"
   ],
   "sizes": [
-    "325.5 MB (72 files)"
+    "310 MB (72 files)"
   ],
   "formats": [
     ".bdf",
