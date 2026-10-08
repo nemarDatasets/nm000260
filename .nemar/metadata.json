@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Van Veen, Barachant & Andreev 2012 — Building Brain Invaders: EEG data of an experimental validation (BI2012)",
-  "description": "This dataset contains 16-channel EEG recordings from 25 healthy volunteers playing Brain Invaders, a visual P300 brain-computer interface inspired by the video game Space Invaders. Data were collected at GIPSA-lab, Grenoble, in 2012 using a training-test design, with Target and NonTarget flashes of alien groups as events. It supports P300 BCI research, including classification with xDAWN and Riemannian methods.",
-  "methods_description": "EEG was recorded with a NeXus-32 amplifier (MindMedia/TMSi) from 16 wet Ag/AgCl electrodes at 128 Hz, using OpenVibe. The interface had 36 aliens flashing in 12 groups of 6, with 12 flashes per repetition (2 Target, 10 non-Target). The training session comprised 8 Targets with 8 repetitions each. The online session had three levels with different distractor configurations, in counter-balanced order.",
+  "description": "EEG recordings from 25 healthy volunteers playing Brain Invaders, a visual P300 brain-computer interface inspired by the video game Space Invaders. Data were recorded with 16 electrodes at GIPSA-lab (Grenoble, France) in 2012, using a training-test design with Target and NonTarget flashes. This version is a MOABB-derived BIDS conversion of the original Zenodo deposit.",
+  "methods_description": "EEG was recorded from 16 wet Ag/AgCl electrodes with a NeXus-32 amplifier (MindMedia/TMSi) at 128 Hz, using OpenVibe and a hardware common average reference. Each subject completed a training session (8 Targets, 8 repetitions each, 128 Target and 640 non-Target flashes) and an online session with three levels of distractor configuration. Stimuli were 36 aliens flashing in 12 groups of 6, with a 1:5 Target to non-Target ratio.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -16,26 +16,19 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "term": "Electroencephalography (EEG)"
     },
     {
       "term": "P300"
+    },
+    {
+      "term": "Brain-Computer Interfaces"
     },
     {
       "term": "event-related potentials"
     },
     {
       "term": "Brain Invaders"
-    },
-    {
-      "term": "visual stimulation"
     }
   ],
   "related_identifiers": [
@@ -82,5 +75,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "6bb20f3e75589503af3fa4f6abce2549acf5b71da626f9b0c0ee0cb7cdd391db"
+  "source_hash": "c310dbc14ad96a87236911a8ee11b7f4299e425a62d0c5d196ffb03a1399d656"
 }
